@@ -15,6 +15,7 @@ namespace InterviewPreparation
             
             var fish = new Fish("Alisa");
             var fish1 = new Fish("Alisa 1");
+            var dog = new Dog("General Gavs");
             //fish.Say();
             //fish.Move();
 
@@ -25,6 +26,7 @@ namespace InterviewPreparation
             animals.Add(cat);
             animals.Add(fish);
             animals.Add(fish1);
+            animals.Add(dog);
 
             var list = new LinkedList<Animal>();
             list.AddLast(cat);
